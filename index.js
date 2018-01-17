@@ -11,7 +11,7 @@ server.listen(port, function () {
 
 var clients = 0;
 // Routing
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('./public'));
 
 var button = {};
 var buttons = {};
